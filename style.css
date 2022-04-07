@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  font-family: "Libre Baskerville", serif;
+  color: dodgerblue;
+}
+
+a:hover {
+  color: #c710df;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Beau Rivage", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: large;
+  font-family: "Libre Baskerville", serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+button {
+  background: #f018c5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6050dc), to(#9370db));
+  background-image: linear-gradient(to bottom, #6050dc, #9370db);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6050dc), to(#9f1bb1));
+  background-image: linear-gradient(to bottom, #6050dc, #9f1bb1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.bloc {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header {
+  width: 100%;
+}
+
+header li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+header nav {
+  background: #4169E1;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4169E1), to(#C8D4F6));
+  background: linear-gradient(to bottom, #4169E1 0%, #C8D4F6 100%);
+}
+
+footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer h2 {
+  color: dodgerblue;
+  margin-top: 50px;
+}
+
+footer .socialLink {
+  margin: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+
+footer .fa-brands.fa-facebook {
+  color: #3b5998;
+  font-size: 50px;
+}
+
+footer .fa-brands.fa-youtube {
+  color: white;
+  font-size: 40px;
+  border: 1px solid #bb0000;
+  border-radius: 50%;
+  background-color: #bb0000;
+  padding: 3px;
+}
+
+.copyright {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #4169E1;
+}
+
+.copyright p {
+  font-size: small;
+}
+
+.legalBloc h2 {
+  border: 1px solid red;
+}
+
+.legalBloc .hidenBloc {
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */

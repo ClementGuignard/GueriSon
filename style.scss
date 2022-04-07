@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+$socialsize: 50px;
+$h1font:'Beau Rivage', cursive;
+$pfont:'Libre Baskerville', serif;
+$royalblue:#4169E1;
+
+
+//////// GENERIC RULE
+body{
+    margin: 0;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    font-family: $pfont;
+    color: rgba(30,144,255,1);
+    &:hover{
+        color:  #c710df;
+        transition: 0.7s;
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+h1{
+    font-family: $h1font;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+p{
+    color: white;
+    font-size: large;
+    font-family: $pfont;   
+}
+h2{
+    color: white;
+    font-family: $pfont; 
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+button{
+        background: #f018c5;
+        background-image: linear-gradient(to bottom, #6050dc, #9370db);
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 25px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        &:hover{
+            background-image: linear-gradient(to bottom, #6050dc, #9f1bb1);
+            transition: 0.7s;
+        }
+}
+.bloc{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+////// HEADER
+header{
+    width: 100%;
+    li{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    nav{
+        background: $royalblue;
+    }
+}
+////// MAIN
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #4169E1 0%, #C8D4F6 100%);
+}
+/////// FOOTER
+footer{
+    li{
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        color:rgba(30,144,255,1);
+        margin-top: 50px;
+    }
+    .socialLink{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .fa-brands.fa-facebook{
+        color: #3b5998;
+        font-size:$socialsize
+    }
+    .fa-brands.fa-youtube{
+        color:white;
+        font-size: 40px;
+        border:  1px solid #bb0000;
+        border-radius: 50%;
+        background-color: #bb0000;
+        padding: 3px;
+    }
+}
+.copyright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $royalblue;
+    p{
+        font-size: small;
+    }
+}
+.legalBloc{
+    h2{
+    border: 1px solid red;}
+    .hidenBloc{
+        visibility: hidden;
+    }
+    
+}
