@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Tajawal:wght@200&display=swap");
 body {
   margin: 0;
   text-align: center;
@@ -14,22 +14,25 @@ a {
 
 a:hover {
   color: #c710df;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   font-size: x-large;
   font-weight: bold;
 }
 
 h1 {
-  font-family: "Beau Rivage", cursive;
-  font-size: 40px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 100px;
   text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 15px #ffffff;
 }
 
 p {
   color: white;
   font-size: large;
   font-family: "Libre Baskerville", serif;
+  margin: 30px;
 }
 
 h2 {
@@ -62,8 +65,8 @@ button:hover {
 }
 
 .bloc {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 header {
@@ -86,12 +89,32 @@ header a {
 }
 
 header nav {
-  background: #4169E1;
+  background: #4169e144;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  height: 50px;
+}
+
+.banniere {
+  background-image: url(./bannierevierge.jpg);
+  background-size: cover;
+  background-position: bottom 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main {
   padding-top: 30px;
-  padding-bottom: 30px;
   background: -webkit-gradient(linear, left top, left bottom, from(#4169E1), to(#C8D4F6));
   background: linear-gradient(to bottom, #4169E1 0%, #C8D4F6 100%);
 }
@@ -146,15 +169,31 @@ footer .fa-brands.fa-youtube {
   background-color: #4169E1;
 }
 
+.copyright a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+.copyright a:hover {
+  font-weight: 100;
+  border-bottom: 1px solid white;
+}
+
 .copyright p {
   font-size: small;
 }
 
-.legalBloc h2 {
-  border: 1px solid red;
+#mentionsLegales {
+  text-decoration: none;
 }
 
-.legalBloc .hidenBloc {
-  visibility: hidden;
+.imgNC {
+  width: 65%;
+  height: 65%;
+}
+
+#VideoProduit {
+  margin: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
